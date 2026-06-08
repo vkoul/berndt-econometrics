@@ -10,13 +10,37 @@
 
 </details>
 
-## Background
+## 📚 Background
 
-I first came across *The Practice of Econometrics: Classic and Contemporary* by [Ernst R. Berndt](http://mitsloan.mit.edu/faculty-and-research/faculty-directory/detail/?id=41392) through [Emmanuel Flachaire](https://sites.google.com/site/emmanuelflachaire/), who recommends the book for his [Applied Econometrics course](https://sites.google.com/site/emmanuelflachaire/cours/econometrie-appliquee?authuser=0).
+I first came across *The Practice of Econometrics: Classic and Contemporary* by [Ernst R. Berndt (MIT Sloan)](http://mitsloan.mit.edu/faculty-and-research/faculty-directory/detail/?id=41392) through [Emmanuel Flachaire](https://sites.google.com/site/emmanuelflachaire/), who recommends the book for his [Applied Econometrics course](https://sites.google.com/site/emmanuelflachaire/cours/econometrie-appliquee?authuser=0).
 
-The book caught my attention because of its strong applied focus. I searched further for the book and the author, which led me to this repository containing the accompanying datasets. I also found a [UMass Applied Econometrics course page](https://courses.umass.edu/econ753/) that recommends the book and provides links to scanned chapter-wise PDFs.
+The book caught my attention because of its strong applied focus. I searched further for the book and the author, which led me to [this repository containing the accompanying datasets](https://github.com/BenjaminKay/berndt-econometrics). I also found a [UMass Applied Econometrics course page](https://courses.umass.edu/econ753/) that recommends the book and provides links to scanned chapter-wise PDFs. [PDF Syllabus of the course - has good readings](https://github.com/vkoul/berndt-econometrics/blob/master/UMass%20Applied%20Ecotrix%20Syllabus.pdf)
 
-## Book Reviews
+## 💡 Why This Book Is Useful
+
+*The Practice of Econometrics: Classic and Contemporary* is designed as an applied guide to econometrics, with a strong focus on learning through real empirical examples.
+
+Some of its salient features include:
+
+- Explores ten applied econometric topics, including:
+  - The Capital Asset Pricing Model as an application of bivariate regression analysis
+  - Causality and simultaneity between advertising and sales
+  - Parameter estimation in structural and reduced-form equations of small macroeconometric models
+  - Limited dependent variable models for studying women’s labor supply
+
+- Connects econometric methods with real economic applications rather than presenting them only as abstract theory.
+
+- Each chapter:
+  - Discusses the relevant economic theory
+  - Outlines key issues in econometric implementation
+  - Summarizes important empirical findings
+  - Provides eight to ten hands-on computer exercises using the accompanying data
+
+- Emphasizes replication, empirical practice, and learning by doing.
+
+- Makes classic and contemporary econometric applications accessible through real datasets and guided exercises.
+
+## 🌟 Book Reviews
 
 While researching the book, I also came across strong recommendations from several leading economists:
 
@@ -40,7 +64,7 @@ While researching the book, I also came across strong recommendations from sever
 > — **Harvey S. Rosen**  
 > Princeton University
 
-## What This Repository Contains
+## 📦 What This Repository Contains
 
 This repository currently provides:
 
@@ -50,13 +74,16 @@ This repository currently provides:
 
 The hands-on material in the book looks especially useful for anyone who wants to understand econometrics through real empirical examples rather than theory alone.
 
+## ⬇️ Fetch the Book Chapters
 
-### Fetch the Book Chapters
- The UMass course gives the links: 
- >Scanned chapters of The Practice of Econometrics (Ernest M. Berndt) are available from
-http://courses.umass.edu/econ753/berndt.poe/Ch01.pdf (substituting for 01 with other chapter numbers).
+The UMass course gives the links:
 
-Chatgpt created a code to download all via R. You can do similarly for Python 
+> Scanned chapters of *The Practice of Econometrics* (Ernest M. Berndt) are available from  
+> http://courses.umass.edu/econ753/berndt.poe/Ch01.pdf  
+> substituting `01` with other chapter numbers.
+
+ChatGPT created a code snippet to download all chapters using R. You can do something similar in Python.
+
 ```r
 dir.create("berndt_chapters", showWarnings = FALSE)
 
@@ -81,9 +108,9 @@ for (i in 1:20) {
 }
 ```
 
-The content of the book can be found here
+**The detailed content of the book can be [found here](https://github.com/vkoul/berndt-econometrics/blob/master/Book_Content.md).**
 
-## Original Repository Note
+## 📝 Original Repository Note
 
 This repository contains the data files for the textbook *The Practice of Econometrics: Classic and Contemporary* by [Ernst R. Berndt][2]. [The Practice of Econometrics][1] was published in 1991 and has ISBN `0-201-49900-2`.
 
@@ -91,12 +118,9 @@ Currently, the repository contains the raw data files from the floppy disk that 
 
 If time permits, I may work through the exercises using a more modern programming language.
 
-## Other Resources
+**🔗 Other Resources**
 
 Completed exercises and data files using TSP for *The Practice of Econometrics* are available from [Clint Cummins’s website][3].
 
 However, since TSP is rarely used today, this repository is intended to make the data more easily accessible to non-TSP users who want to complete the book’s exercises using modern tools.
 
-[1]: https://www.worldcat.org/isbn/0201499002
-[2]: http://mitsloan.mit.edu/faculty-and-research/faculty-directory/detail/?id=41392
-[3]: https://clintcummins.com/
