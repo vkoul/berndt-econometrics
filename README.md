@@ -1,3 +1,15 @@
+<details>
+<summary>📘 View book cover</summary>
+
+<br>
+
+<p align="center">
+  <img src="front_cover.png" alt="Front cover of The Practice of Econometrics" width="300">
+  <img src="back_cover.png" alt="Back cover of The Practice of Econometrics" width="300">
+</p>
+
+</details>
+
 ## Background
 
 I first came across *The Practice of Econometrics: Classic and Contemporary* by [Ernst R. Berndt](http://mitsloan.mit.edu/faculty-and-research/faculty-directory/detail/?id=41392) through [Emmanuel Flachaire](https://sites.google.com/site/emmanuelflachaire/), who recommends the book for his [Applied Econometrics course](https://sites.google.com/site/emmanuelflachaire/cours/econometrie-appliquee?authuser=0).
